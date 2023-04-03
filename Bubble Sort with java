@@ -1,6 +1,6 @@
 import java.util.*;
 
-class array
+class sorting
 {
     public static void printArray(int arr[])
     {
