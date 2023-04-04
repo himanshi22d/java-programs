@@ -1,0 +1,22 @@
+import java.util.*;
+   
+public class recursion
+{
+    public static void factorial(int i,int n,int mult)
+    {
+        if(i == n)
+        {
+            mult *= i;
+            System.out.println(mult);
+            return;
+        }
+        mult *= i;
+        factorial(i+1,n,mult);
+    }
+    public static void main(String args[])
+    {
+         Scanner sc = new Scanner(System.in);
+         int n=sc.nextInt();
+         factorial(1,n,1);
+    } 
+}
